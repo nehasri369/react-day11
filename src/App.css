@@ -1,0 +1,35 @@
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lavender;
+}
+
+button{
+    margin-top: 25px;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(142, 244, 244);
+}
+
+input{
+    width: 180px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(67, 245, 245);
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
